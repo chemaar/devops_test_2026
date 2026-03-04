@@ -97,3 +97,13 @@ http://localhost:8000/docs
 ```bash
 docker compose exec api pytest
 ```
+
+## Generar PDF de documentación (Pandoc)
+
+```bash
+bash scripts/generate_pdf_pandoc.sh
+```
+
+Salida esperada:
+
+- `site/Podcastify_doc.pdf`
